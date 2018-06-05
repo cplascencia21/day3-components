@@ -4,13 +4,9 @@ import { Component, OnInit } from '@angular/core';
   // tslint:disable-next-line:component-selector
   selector: 'warning-message',
   template: `
-    <h1>warning-message</h1>
+    <h1>warning message</h1>
     `,
-  styles: [`
-    h1{
-      color: blue;
-    }
-  `]
+  styleUrls: ['./warning-message.component.css'],
 })
 export class WarningMessageComponent implements OnInit {
 
